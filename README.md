@@ -1,6 +1,18 @@
 # ROG Strix G16 G614JVR    Hackintool Mac OS Tahoe   N-key 无限枚举/复位/失灵
 新消息:群友be200反馈枪神9可用，据此推测，只要是usb hid的内置键盘的ROG电脑完全可以用此Kext
-#__________
+# __________
+
+
+
+
+
+
+
+
+
+
+
+
 Mac OS Tahoe
 0.先打好USB端口补丁，我的键盘是走内置USB接口的HID复合式键盘。
 1.mac终端运行此代码‘ioreg -l -w0 | grep -B 5 -A 20 "bInterfaceNumber"’
